@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*所有的css代码都写到这里*/
+			/*选择器{
+				这里面写具体都规则
+			}*/
+			/*
+			 * 选择器的作用：查找到对应的html元素
+			 * #  id选择器
+			 * .  类选择器
+			 * div  标签选择器
+			 * 
+			 * 不管用什么选择器，最终目的都是为了找到对应的元素 最终用{}里面的规则去修饰
+			 */
+			/*
+			 * id、类、标签这几个选择器的不同点？
+			 * 
+			 * id: id的名称不会出现多次， 表示唯一，如果说网页中有一个唯一的元素需要修饰 用id选择器
+			 * 类：类名称可以出现多次 修饰同一类元素，有多个元素具有同样的样式的时候，可以用类选择器
+			 * 标签： 通过标签名称，可以选中所有同名的标签
+			 */
+			.div{
+				/*设置宽度*/
+				width: 100px;
+				/*设置高度*/
+				height: 100px;
+				/*设置背景*/
+				background-color: blue;
+			}
+			.red{
+				color: red;
+			}
+			p{
+				color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<div ></div>
+		<!--div、p、h1 这三个元素字体都是红色-->
+		<div class="red">这是div</div>
+		<p class="red">这是p元素</p>
+		<h1 class="red">这是h1</h1>
+		
+		<p>sdfs</p>
+		<p>sdfsdf</p>
+	</body>
+</html>

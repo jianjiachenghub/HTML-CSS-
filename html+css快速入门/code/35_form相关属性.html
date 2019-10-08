@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--form相关的属性
+			action  表单提交的地址（收集好的数据要发送到哪里？由action决定）
+			methon  表示表单发送数据的方式 默认使用get方式
+					get  显式提交 把数据放在浏览器地址栏发送给后台 可以在浏览器地址栏看到发送的内容
+					post  隐式提交不可见
+			name属性：通用的属性 可以加在任何标签上
+			什么时候用get？什么时候用post？ 涉及到数据库修改 用post  查询get
+		-->
+		<form action="https://www.baidu.com/s" >
+			用户名：<input type="text" name="wd" />
+			<input type="submit" value="登录" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*表示同时设置h4和p元素的样式*/
+			h4,p{
+				padding: 0;
+				margin: 0;
+			}
+			li{
+				/*去掉li前面的小点*/
+				list-style: none;
+				width: 140px;
+				height: 190px;
+				/*设置浮动*/
+				float:left;
+				margin-left: 5px;
+			}
+			
+			#bg{
+				/*简写 包含了 background-size：*/
+				background: url(jd/jd1.jpg);
+			}
+			#bg2{
+				background: url(jd/jd2.jpg);
+			}
+			#bg3{
+				background: url(jd/jd3.jpg);
+			}
+			#bg4{
+				background: url(jd/jd4.jpg);
+			}
+			#bg5{
+				background: url(jd/jd5.jpg);
+			}
+			#bg6{
+				background: url(jd/jd6.jpg);
+			}
+			#bg,#bg2,#bg3,#bg4,#bg5,#bg6{	
+				/*规定背景图片的大小*/
+				background-size: 140px 190px;
+				border: 1px solid white;
+			}
+			
+			a{
+				/*去掉a标签的下划线*/
+				text-decoration: none;
+				color: white;
+			}
+			/*div的样式*/
+			.bgcolor,.bgcolor2,.bgcolor3,.bgcolor4,.bgcolor5,.bgcolor6{
+				text-align:  center;
+				height: 80px;
+				margin-top: 110px;
+			}
+			.bgcolor{
+				background: #916d56;
+			}
+			.bgcolor2{
+				background: #835f8c;
+			}
+			.bgcolor3{
+				background-color: #b72d35;
+			}
+			.bgcolor4{
+				background: #549b6e;
+			}
+			.bgcolor5{
+				background: #dd6a52;
+			}
+			.bgcolor6{
+				background-color: #5c91b6;
+			}
+			h4{
+				padding-top: 20px;
+			}
+			p{
+				margin-top: 10px;
+				font-size: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<!--盒子-->
+			<li id="bg">
+				<!--内部的盒子 装文字-->
+				<div class="bgcolor">
+					<a href="http://jd.com/" target="_blank">
+						<h4>司法拍卖</h4>
+						<p>法院好货,公开抢拍</p>
+					</a>
+				</div>
+			</li>
+			<!--盒子-->
+			<li id="bg2">
+				<!--内部的盒子 装文字-->
+				<div class="bgcolor2">
+					<a href="http://jd.com/">
+						<h4>司法拍卖</h4>
+						<p>法院好货,公开抢拍</p>
+					</a>
+				</div>
+			</li>
+				
+			<!--盒子-->
+			<li id="bg3">
+				<!--内部的盒子 装文字-->
+				<div class="bgcolor3">
+					<a href="http://jd.com/">
+						<h4>司法拍卖</h4>
+						<p>法院好货,公开抢拍</p>
+					</a>
+				</div>
+			</li>
+			<!--盒子-->
+			<li id="bg4">
+				<!--内部的盒子 装文字-->
+				<div class="bgcolor4">
+					<a href="http://jd.com/">
+						<h4>司法拍卖</h4>
+						<p>法院好货,公开抢拍</p>
+					</a>
+				</div>
+			</li>
+			<!--盒子-->
+			<li id="bg5">
+				<!--内部的盒子 装文字-->
+				<div class="bgcolor5">
+					<a href="http://jd.com/">
+						<h4>司法拍卖</h4>
+						<p>法院好货,公开抢拍</p>
+					</a>
+				</div>
+			</li>
+			<!--盒子-->
+			<li id="bg6">
+				<!--内部的盒子 装文字-->
+				<div class="bgcolor6">
+					<a href="http://jd.com/">
+						<h4>司法拍卖</h4>
+						<p>法院好货,公开抢拍</p>
+					</a>
+				</div>
+			</li>
+		</ul>
+	</body>
+</html>

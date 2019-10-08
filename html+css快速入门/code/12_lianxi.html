@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*问题：我不知道图片的尺寸  宽高 */
+			.wrap{
+				width: 192px;
+				/*border: 1px solid red;*/
+				/*水平居中*/
+				margin: 10px auto;
+			}
+			.wrap-content{
+				/*水平居中*/
+				width: 180px;
+				margin: 0 auto;
+				/*设置字体大小为0 解决下面img元素和字体之间有间隙*/
+				font-size: 0;
+			}
+			p{
+				background-color: #f2f2f2;
+				/*默认情况下有margin，要把它设置成0 才会和其他元素没有距离*/
+				margin: 0;
+				/*单独设置字体大小*/
+				font-size: 14px;
+				height: 36px;
+				line-height: 36px;
+				color: #333333;
+			}
+			.item{
+				margin-top:16px ;
+			}
+		</style>
+	</head>
+	<body>
+		<!--class 可以重复使用-->
+		<div class="wrap">
+			<div class="wrap-content">
+				<!--大盒子里面的每一项-->
+				<div class="item">
+					<img src="img/news1.jpg"/>
+					<p>新歌声：扎西致敬...</p>
+				</div>
+				
+				<!--大盒子里面的每一项-->
+				<div class="item">
+					<img src="img/news2.jpg"/>
+					<p>嘻哈：扎西致敬...</p>
+				</div>
+				<!--大盒子里面的每一项-->
+				<div class="item">
+					<img src="img/news3.jpg"/>
+					<p>极限：扎西致敬...</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

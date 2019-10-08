@@ -1,0 +1,13 @@
+<MKM version="2.0" minAppVer="2.0.0" imageFileUrl="">
+  <Marks>
+    <LengthMark x="501" y="85" color="16711680" length="141" direction="3"/>
+    <ColorMark x="326" y="193" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="140" y="178" color="16711680" offsetX="0" offsetY="0" defaultDirection="10" colorSystem="hex"/>
+    <ColorMark x="314" y="179" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="336" y="175" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="484" y="175" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="648" y="188" color="16711680" offsetX="0" offsetY="0" defaultDirection="5" colorSystem="hex"/>
+    <ColorMark x="818" y="196" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="988" y="185" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+  </Marks>
+</MKM>
