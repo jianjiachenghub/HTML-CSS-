@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="print.css">
+	</head>
+
+	<body>
+		<div class="div_print_info_portait PageNext">
+			<h1 align="center">绵阳市高水农副产品批发有限公司收货单</h1>
+			<form id="ff" method="post" style="width:95%;">
+				<table cellspacing="4" style="margin-top: 10px;margin-left: 0px;margin-bottom: 10px;">
+					<tr>
+						<th>收货日期：</th>	
+						<td colspan="7"><input type="text" name="ORDER_NO" value='" + _data.inTime + "' class="print_text_style" /></td>
+					</tr>
+					<tr>
+						<th>打印日期：</th>
+						<td colspan="7"><input type="text" name="SALESORDER_ID" value='" + _data.orderNo + "' class="print_text_style" /></td>
+					</tr>
+					<tr>
+						<th>供应商：</th>
+						<td colspan="7"><input type="text" name="SALESORDER_ID" value='" + _data.providerName + "' class="print_text_style" /></td>
+					</tr>
+
+				</table>
+				<table id="OrderInforTable" class="altrowstable printtable" style="margin-top: 0px;">
+					<tr>
+						<th>
+							<div>商品编码</div>
+						</th>
+						<th>
+							<div>商品类型</div>
+						</th>
+						<th>
+							<div>品名</div>
+						</th>
+						<th>
+							<div>单位</div>
+						</th>
+						<th>
+							<div>数量</div>
+						</th>
+						<th>
+							<div>仓库</div>
+						</th>
+						<th>
+							<div>打印次数</div>
+						</th>
+						<th>
+							<div>备注</div>
+						</th>
+					</tr>
+				</table>
+				</table>
+				<table class="altrowstable printtable" style="margin-top: 0px;">
+					<tr>
+						<th >供应商（签字） </th>
+						<td colspan="3"> 
+							<input class="print_text_style" >
+						</td>
+						<th> 库管员（签字） </th>
+						<td colspan="3">
+							<input class="print_text_style">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+
+</html>
